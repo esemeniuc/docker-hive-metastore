@@ -1,4 +1,4 @@
-# dockerHiveMetastore
+# docker-hive-metastore
 A docker image for Apache Hive Metastore standalone
 
 ## Usage
@@ -10,3 +10,8 @@ Metastore is available on port `9083`
 This container does not persist metastore data between launches
 
 ```docker run -it -p 9083:9083 cwaffles/hive-metastore```
+
+### Info
+- Hadoop 3.3.0
+- Hive Metastore 3.1.2
+- Derby (backing store)
