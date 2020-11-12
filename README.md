@@ -12,6 +12,7 @@ This container does not persist metastore data between launches
 ```docker run -it -p 9083:9083 cwaffles/hive-metastore```
 
 ### Info
+- OpenJDK 11 JRE
 - Hadoop 3.3.0
 - Hive Metastore 3.1.2
 - Derby (backing store)
