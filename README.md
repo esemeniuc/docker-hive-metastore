@@ -8,4 +8,5 @@ Metastore is available on port `9083`
 
 ## Ephemeral
 This container does not persist metastore data between launches
+
 ```docker run -it -p 9083:9083 cwaffles/hive-metastore```
